@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+1.nodejs
 
-You can use the [editor on GitHub](https://github.com/flyinghigherair/vue3-wap-ts-vite2/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+| 步骤                                    | 说明                                                         |
+| --------------------------------------- | ------------------------------------------------------------ |
+| nodejs14.19.0<br >node-v14.19.0-x64.msi | http://nodejs.cn/download/current/<br>https://registry.npmmirror.com/binary.html?path=node/v14.19.0/ |
+| powershell设置                          | 执行set-ExecutionPolicy RemoteSigned，选择[Y] 是(Y)          |
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+2.npm配置
 
-### Markdown
+| 步骤          | 说明                                                         |
+| ------------- | ------------------------------------------------------------ |
+| 查看npm默认源 | npm config get registry（请记住返回的网址，一般是https://registry.npmjs.com） |
+| 修改npm源     | npm config set registry https://registry.npmmirror.com       |
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+3.yarn配置
 
-```markdown
-Syntax highlighted code block
+| 步骤           | 说明                                                         |
+| -------------- | ------------------------------------------------------------ |
+| 安装yarn       | npm install -g yarn                                          |
+| 查看yarn默认源 | yarn config get registry（请记住返回的网址，一般是https://registry.npmjs.com） |
+| 修改yarn源     | yarn config set registry https://registry.npmmirror.com      |
 
-# Header 1
-## Header 2
-### Header 3
+4.pnpm配置
 
-- Bulleted
-- List
+| 步骤           | 说明                                                         |
+| -------------- | ------------------------------------------------------------ |
+| 安装pnpm       | npm install -g pnpm                                          |
+| 查看pnpm默认源 | pnpm config get registry（请记住返回的网址，一般是https://registry.npmjs.com） |
+| 修改pnpm源     | pnpm config set registry https://registry.npmmirror.com      |
 
-1. Numbered
-2. List
+5.VSCode插件
 
-**Bold** and _Italic_ and `Code` text
+| 插件                 | 说明         |
+| -------------------- | ------------ |
+| ESLint               |              |
+| Vetur                | vue2语法     |
+| Visual Studio Keymap | vs用户快捷键 |
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/flyinghigherair/vue3-wap-ts-vite2/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
